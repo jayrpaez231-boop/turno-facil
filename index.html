@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurnoFácil - Reserva tu cita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>✂️ TurnoFácil</h1>
+        <p>Reserva tu cita en 1 minuto</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>1. Elige un Servicio</h2>
+            <div id="servicios"></div>
+        </div>
+
+        <div class="card">
+            <h2>2. Elige Fecha y Hora</h2>
+            <input type="date" id="fecha">
+            <div id="horarios"></div>
+        </div>
+
+        <div class="card">
+            <h2>3. Tus Datos</h2>
+            <input type="text" id="nombre" placeholder="Tu nombre">
+            <input type="tel" id="telefono" placeholder="Tu WhatsApp">
+            <button id="btnReservar">Reservar Cita</button>
+        </div>
+    </div>
+
+    <div id="mensaje"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
